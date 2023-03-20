@@ -31,4 +31,10 @@ describe("fizzBuzz", () => {
   it("deberia mostrarme Buzz para el multiplo de 5", () => {
     expect(fizzbuzz(10)).toEqual("Buzz");
   });
+  it("deberia mostrarme FizzBuzz cuando es multiplo de 3 y 5 a la vez", () => {
+    expect(fizzbuzz(15)).toEqual("FizzBuzz");
+  });
+  it("deberia mostrarme FizzBuzz cuando es multiplo de 3 y 5 a la vez", () => {
+    expect(fizzbuzz(30)).toEqual("FizzBuzz");
+  });
 });
